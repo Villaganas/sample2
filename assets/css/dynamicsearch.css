@@ -1,0 +1,51 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: #808080; /* Grey background for the body */
+    margin: 0; /* Remove default margin */
+    padding-bottom: 50px; /* Adjust padding to accommodate the footer */
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+.search-container {
+    margin-bottom: 10px;
+}
+
+#searchInput {
+    padding: 8px;
+    width: 300px; /* Adjust width as needed */
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    padding: 5px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+.search{
+    width: 60%;
+    margin: 5% 20% 0% 20%;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #000000; /* Black background for the footer */
+    color: #ffffff; /* White text color for the footer */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

@@ -1,0 +1,63 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: #808080; /* Grey background for the body */
+    margin: 0; /* Remove default margin */
+    padding-bottom: 50px; /* Adjust padding to accommodate the footer */
+}
+
+h1 {
+    font-size: 35px;
+    text-align: center;
+    color: white;
+}
+
+.header p {
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+
+.content p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #000000;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 10%;
+}
+
+.c1, .c2, .c3 {
+    width: 30%;
+    margin: 3%;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #ff3c00; /* Change background color on hover */
+    color: #ffffff; /* Change text color on hover */
+    transition: background-color 0.9s ease, color 0.9s ease; /* Smooth transition effect */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #000000; /* Black background for the footer */
+    color: #ffffff; /* White text color for the footer */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Calculator</title>
+<link rel="stylesheet" href="../../assets/css/calculator.css">
+<link rel="stylesheet" href="../../assets/css/nav.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-content">
+          <img src="../../assets/img/logo.png" alt="img not found">
+          <div class="nav-links">
+            <a href="../../index.html">Home</a>
+            <a href="#">Calculator</a>
+            <a href="../todolist/todolist.html">To Do List</a>
+            <a href="../dynamicsearch/dynamicsearch.html">Dynamic Search</a>
+          </div>
+          
+          <button class="burger-menu">&#9776;</button>
+        </div>
+      </nav>
+      
+<div class="calculator">
+    <input type="text" id="result" readonly>
+    <div class="row">
+        <button onclick="appendToResult('7')">7</button>
+        <button onclick="appendToResult('8')">8</button>
+        <button onclick="appendToResult('9')">9</button>
+        <button class="operator" onclick="appendToResult('/')">/</button>
+    </div>
+    <div class="row">
+        <button onclick="appendToResult('4')">4</button>
+        <button onclick="appendToResult('5')">5</button>
+        <button onclick="appendToResult('6')">6</button>
+        <button class="operator" onclick="appendToResult('*')">x</button>
+    </div>
+    <div class="row">
+        <button onclick="appendToResult('1')">1</button>
+        <button onclick="appendToResult('2')">2</button>
+        <button onclick="appendToResult('3')">3</button>
+        <button class="operator" onclick="appendToResult('-')">-</button>
+    </div>
+    <div class="row">
+        <button onclick="appendToResult('0')">0</button>
+        <button onclick="appendToResult('.')">.</button>
+        <button onclick="clearResult()"style="background-color:red;">C</button>
+        <button class="operator" onclick="appendToResult('+')">+</button>
+    </div>
+    <div class="row">
+        <button class="equal" onclick="calculate()"style="width: 100%;">=</button>
+    </div>
+</div>
+<footer>
+    <p>Developer: Bimbo E. Villaganas</p>
+    <p>3rd year college student from Northern Bukidnon State College</p>
+    <p>Course: BSIT | Age: 22 years old</p>
+  </footer>
+
+<script src="calculator.js"></script>
+<script src="../../assets/js/nav.js"></script>
+
+</body>
+</html>
